@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Resume</title>
+    <link rel="stylesheet" href="C:\Users\kingn\OneDrive\Desktop\Лабы ЭМММ\Resume\styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\kingn\OneDrive\Desktop\Лабы ЭМММ\Resume\img\MyFoto.jpg" alt="Your Photo" class="profile-photo">
+        <p>My name is Andrey, 18 years old. I am a student of the OP-31 group at the Pavel Osipovich Sukhoi Gomel State Technical University.Prior to that, I studied at the Faculty of Automated Systems as a programmer. But in my second year, I realized that I would not be able to complete my studies and changed the faculty. Now I have made a second attempt to get a second higher education as a programmer.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C#</li>
+        </ul>
+    </section>
+
+    <section id="code-example">
+        <h2>Code Example</h2>
+        <pre><code>// Example code
+function greet(name) {
+    console.log("Hello, " + name);
+}
+greet("World");
+</code></pre>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername/project1" target="_blank">My project is about a fictional rock band "Samurai"(1-8 Lab)</a></li>
+            
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>I almost got the B1 level . I understand the language by ear but still find it difficult to speak English fluently.</p>
+    </section>
+
+    <!-- Раздел с контактной информацией -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: <a href="mailto:kingnovik18@gmail.com">kingnovik18@gmail.com</a></li>
+            <li>Phone: +375 44-535-30-62</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> KingNovik3</p>
+    <a href="https://github.com/KingNovik3" target="_blank">GitHub Profile</a>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
